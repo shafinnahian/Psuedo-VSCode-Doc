@@ -1,0 +1,87 @@
+body {
+    background-color: #262626;
+    color: #d9d9d9;
+    font-size: 17px;
+    font-family: monospace;
+    text-align: center;
+}
+h1{
+    color: royalblue;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+h4{
+    font-size: 35px;
+    font-family: sans-serif;
+}
+span{
+    font-size: 21px;
+}
+
+.inAction{
+    background: #333333;
+    margin-bottom: 50px;
+    padding-bottom: 520px;
+    padding-top: 1px;
+
+    background-image: url(images/debugging_hero.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    
+}
+.inAction p{
+    padding: 0px 50px 50px 50px;
+    text-align: center;
+}
+.intro{
+    font-family: sans-serif;
+    line-height: 1.70;
+    text-align: center;
+}
+.UL{
+    text-align: initial;
+    /* list-style-image: url(./images/small-arrow-icon-1.jpg); */
+}
+a {
+    color: #bad1fd;
+    text-decoration: none;
+}
+a:hover,a:focus {
+    color: bisque;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+section{
+    float: left;
+    width: 75%;
+}
+aside{
+    float: right;
+    width: 25%;
+    font-size: 12px;
+}
+.sidebarList{
+    list-style-type: none;
+    text-align: left;
+}
+footer{
+    clear:both;
+    padding: 20px;
+    background-color: #1f1e1e;
+}
+header{
+    padding: 5px 0;
+    background-color: #1f1e1e;
+    background-image: url(./images/vsLogo.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: left 50%;
+    padding-left: 36px;
+    position: relative;
+    letter-spacing: -0.04rem;
+    min-height: 50px;
+    margin: -10px -7px 0 -7px;
+}
